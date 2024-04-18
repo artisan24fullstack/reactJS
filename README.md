@@ -10,6 +10,9 @@ Currently, two official plugins are available:
 # React JavaScript project with Vite and Sass
 ### Step-by-step template for setting up
 my-project/
+
+```
+my-project/
 ├── node_modules/
 ├── src/
 │   ├── assets/
@@ -19,6 +22,9 @@ my-project/
 │   │   ├── images/
 │   ├── components/
 │   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Sidebar.jsx
+│   │   └── MainContent.jsx
 │   ├── App.jsx
 │   └── main.jsx
 ├── index.html
@@ -26,6 +32,7 @@ my-project/
 ├── package.json
 ├── README.md
 └── vite.config.js
+```
 
 - https://github.com/suongfiori/vite-react-sass-template
 - https://grafikart.fr/tutoriels/installation-react-1313#autoplay
@@ -40,6 +47,12 @@ my-project/
 
 - > npm install
 - >  npm run dev
+
+## Installation react developer tools (3 min 30)
+### (extension google) 
+- https://grafikart.fr/tutoriels/installation-react-1313#autoplay
+- taper sur google react developer tools
+- https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
 
 ## Installation .scss and .sass
 - > npm add -D sass
